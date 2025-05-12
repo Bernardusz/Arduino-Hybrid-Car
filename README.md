@@ -8,8 +8,8 @@ This is a dual-mode Arduino vehicle that can operate on land **and** transform i
 
 ## 🎯 Features
 
-* 🛞 **Land Mode** – Line-following, obstacle detection, manual control via Bluetooth.
-* 🚁 **Drone Mode** – Flight control via IR/Bluetooth + gesture controls (planned).
+* 🛞 **Land Mode** – Manual control via Bluetooth.
+* 🚁 **Drone Mode** – Flight control via IR/Bluetooth.
 * 🔁 **Mode Switch** – Switch seamlessly between land and air modes with a simple command.
 * 🧠 **Modular Code** – Clean structure using PlatformIO and C++ for scalability.
 
