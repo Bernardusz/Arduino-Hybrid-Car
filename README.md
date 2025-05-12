@@ -8,8 +8,8 @@ This is a dual-mode Arduino vehicle that can operate on land **and** transform i
 
 ## 🎯 Features
 
-* 🛞 **Land Mode** – Manual control via Bluetooth.
-* 🚁 **Drone Mode** – Flight control via IR/Bluetooth.
+* 🛣 **Land Mode** – Manual control via Bluetooth.
+* 🚁 **Drone Mode** – Flight control via Bluetooth.
 * 🔁 **Mode Switch** – Switch seamlessly between land and air modes with a simple command.
 * 🧠 **Modular Code** – Clean structure using PlatformIO and C++ for scalability.
 
@@ -39,13 +39,13 @@ Arduino-Hybrid-Car/
 
 | Name                   | Role                         |
 | ---------------------- | ---------------------------- |
-| Bernardus (me 😎)      | Programmer 1 / Repo Maintainer |
-| Austin                 |                              |
-| Christian C.           |  |
-| Christopher       |  |
-| Hugo       |  |
-| Joyce K.       |  |
-| Matthew       |  |
+| Bernardus (me 😎)      | Programmer / Repo Maintainer |
+| Austin                 | Programmer / Hardware (Builder & Wiring)|
+| Christian C.           | **Leader** / Programmer  |
+| Christopher       | Hardware (Wiring) |
+| Hugo       | Hardware (Builder & Wiring) |
+| Joyce K.       | Programmer |
+| Matthew       | Hardware (Builder) |
 | Mr. Tito Vincete Maia |Teacher and Main Advisor|
 
 > 💬 *Want to contribute or build on top of this? Fork the repo and go wild!*
@@ -58,4 +58,4 @@ Arduino-Hybrid-Car/
 
 ---
 
-## **Remember !** Big projects start from small dream !✨🌠
+## **Remember !** Big projects start from small dreams !✨🌠
