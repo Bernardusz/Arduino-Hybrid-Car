@@ -1,31 +1,28 @@
 #include <Arduino.h>
 #include "land_mode.h"
 #include "drone_mode.h"
-int in1=13;
-int in2=12;
-int in3=11;
-int in4=10;
-int enA=1;
-int enB=2;
-int mode = 0;
+
+char input;
+int mode = 0; //0 = Land 1 = Aerial
 
 void setup() {
   Serial.begin(9600);
-  pinMode(enA, OUTPUT);
-  pinMode(13, OUTPUT);
-  pinMode(12, OUTPUT);
-  pinMode(enB, OUTPUT);
-  pinMode(11, OUTPUT);
-  pinMode(10, OUTPUT);
 }
 
 void loop() {
   // your main loop
-  digitalWrite(in1, HIGH);
-  digitalWrite(in2, HIGH);
-  digitalWrite(in3, HIGH);
-  digitalWrite(in4, HIGH);
-  digitalWrite(enA, 255);
-  digitalWrite(enB, 255);
-  delay(1000);
-}
+  if (Serial.available()){
+    input = Serial.read();
+
+    if (input == 'L') mode = 0;
+    else if (input == 'A') mode = 1;
+  }
+  if (mode == 0){
+    LandMode(input);}
+
+  else if (mode == 1)
+  {
+    DroneMode(input);}
+  
+
+}  
