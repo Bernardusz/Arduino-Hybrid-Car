@@ -3,4 +3,9 @@
 
 void LandMode(char command);
 
+void Maju();
+void Kiri();
+void Belakang();
+void Kanan();
+
 #endif
