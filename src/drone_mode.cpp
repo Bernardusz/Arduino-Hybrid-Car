@@ -1,6 +1,6 @@
 #include "drone_mode.h"
 #include <Arduino.h>
 
-void DroneMode() {
+void DroneMode(char command) {
   // your land mode code here
 }
