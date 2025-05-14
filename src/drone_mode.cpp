@@ -1,6 +1,6 @@
-#include "drone_mode.h"
-#include <Arduino.h>
+#ifndef DRONE_MODE_H
+#define DRONE_MODE_H
 
-void DroneMode() {
-  // your land mode code here
-}
+void DroneMode(char command);
+
+#endif
