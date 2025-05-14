@@ -4,7 +4,7 @@
 
 char input;
 int mode = 0; //0 = Land 1 = Aerial
-
+char speed = 'S'; //S = Slow; M = Medium; F = Fast af
 void setup() {
   Serial.begin(9600);
 }
@@ -18,7 +18,7 @@ void loop() {
     else if (input == 'A') mode = 1;
   }
   if (mode == 0){
-    LandMode(input);}
+    LandMode(input, speed);}
 
   else if (mode == 1)
   {
